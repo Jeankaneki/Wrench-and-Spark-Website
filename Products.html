@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Wrench & Spark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Wrench & <span>Spark</span></a>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html" class="active">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> <span id="cart-count" style="display: none;">0</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Browse our extensive collection of professional-grade tools and equipment for mechanics and DIY enthusiasts.</p>
+        </div>
+    </section>
+
+    <!-- This section contains the controls for filtering and sorting products. -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Filter by Category</h2>
+                <!-- Category filter buttons. -->
+                <div style="margin: 20px 0;">
+                    <button class="btn filter-btn active" data-filter="all">All Products</button>
+                    <button class="btn filter-btn" data-filter="hand-tools">Hand Tools</button>
+                    <button class="btn filter-btn" data-filter="power-tools">Power Tools</button>
+                    <button class="btn filter-btn" data-filter="tool-storage">Tool Storage</button>
+                    <button class="btn filter-btn" data-filter="diagnostics">Diagnostics</button>
+                </div>
+            </div>
+            
+            <div class="product-grid">
+                <div class="product-card" data-category="hand-tools">
+                    <div class="product-image"><i class="fas fa-wrench"></i></div>
+                    <div class="product-info">
+                        <h3>Professional Socket Set</h3>
+                        <p class="product-price">R1,299.99</p>
+                        <p class="product-description">72-piece set with ratchet, extensions, and both metric and standard sizes.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="power-tools">
+                    <div class="product-image"><i class="fas fa-bolt"></i></div>
+                    <div class="product-info">
+                        <h3>Impact Wrench</h3>
+                        <p class="product-price">R2,499.99</p>
+                        <p class="product-description">1/2" drive cordless impact wrench with 450 ft-lbs of torque.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="tool-storage">
+                    <div class="product-image"><i class="fas fa-toolbox"></i></div>
+                    <div class="product-info">
+                        <h3>Mechanic's Toolbox</h3>
+                        <p class="product-price">R3,799.99</p>
+                        <p class="product-description">56" rolling cabinet with 8 drawers and stainless steel top.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="diagnostics">
+                    <div class="product-image"><i class="fas fa-car-battery"></i></div>
+                    <div class="product-info">
+                        <h3>Battery Tester</h3>
+                        <p class="product-price">R899.99</p>
+                        <p class="product-description">Digital battery and electrical system tester for 12V vehicles.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="hand-tools">
+                    <div class="product-image"><i class="fas fa-screwdriver"></i></div>
+                    <div class="product-info">
+                        <h3>Screwdriver Set</h3>
+                        <p class="product-price">R349.99</p>
+                        <p class="product-description">26-piece precision screwdriver set with various bits and handle.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="power-tools">
+                    <div class="product-image"><i class="fas fa-fire"></i></div>
+                    <div class="product-info">
+                        <h3>Heat Gun</h3>
+                        <p class="product-price">R599.99</p>
+                        <p class="product-description">Dual temperature heat gun for shrink wrapping, paint stripping, and more.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="diagnostics">
+                    <div class="product-image"><i class="fas fa-tachometer-alt"></i></div>
+                    <div class="product-info">
+                        <h3>OBD2 Scanner</h3>
+                        <p class="product-price">R1,899.99</p>
+                        <p class="product-description">Professional-grade OBD2 scanner with live data and ABS/SRS capabilities.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="hand-tools">
+                    <div class="product-image"><i class="fas fa-compress-arrows-alt"></i></div>
+                    <div class="product-info">
+                        <h3>Torque Wrench</h3>
+                        <p class="product-price">R1,099.99</p>
+                        <p class="product-description">1/2" drive click-type torque wrench with range of 50-250 ft-lbs.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="power-tools">
+                    <div class="product-image"><i class="fas fa-car-crash"></i></div>
+                    <div class="product-info">
+                        <h3>Angle Grinder</h3>
+                        <p class="product-price">R950.00</p>
+                        <p class="product-description">4.5-inch angle grinder with 11,000 RPM for cutting and grinding.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="diagnostics">
+                    <div class="product-image"><i class="fas fa-microchip"></i></div>
+                    <div class="product-info">
+                        <h3>Digital Multimeter</h3>
+                        <p class="product-price">R650.00</p>
+                        <p class="product-description">Auto-ranging multimeter for measuring voltage, current, and resistance.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="tool-storage">
+                    <div class="product-image"><i class="fas fa-box-open"></i></div>
+                    <div class="product-info">
+                        <h3>Wall-Mounted Cabinet</h3>
+                        <p class="product-price">R1,499.00</p>
+                        <p class="product-description">Heavy-duty steel wall cabinet for secure and organized tool storage.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hand-tools">
+                    <div class="product-image"><i class="fas fa-grip-lines"></i></div>
+                    <div class="product-info">
+                        <h3>Pliers Set</h3>
+                        <p class="product-price">R450.00</p>
+                        <p class="product-description">5-piece set including combination, long nose, and diagonal cutting pliers.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background-color: #003366; color: white;">
+        <div class="container text-center">
+            <h2>Can't Find What You're Looking For?</h2>
+            <p>We specialize in sourcing hard-to-find tools and equipment. Contact us for special orders.</p>
+            <a href="enquiry.html" class="btn">Submit an Enquiry</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 357 Tool stock, Cape Town</p>
+                    <p><i class="fas fa-phone"></i> (27) 73-9456-789</p>
+                    <p><i class="fas fa-envelope"></i> info@wrenchspark.co.za</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="Products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="enquiry.html">Enquiry</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and special offers</p>
+                    <form class="newsletter">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Wrench & Spark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

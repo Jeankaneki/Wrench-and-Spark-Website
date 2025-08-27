@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Enquiry - Wrench & Spark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Wrench & <span>Spark</span></a>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> <span id="cart-count" style="display: none;">0</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Special Product Enquiry</h1>
+            <p>Looking for a specific tool or a hard-to-find part? Let us know, and we'll source it for you.</p>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Submit Your Enquiry</h2>
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="tool-name">Tool or Part Name</label>
+                        <input type="text" id="tool-name" name="tool-name" placeholder="e.g., 1/4 inch torque wrench, specific model number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Details</label>
+                        <textarea id="details" name="details" placeholder="Please provide as much detail as possible, including brand, size, specifications, vehicle model, etc." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 357 Tool stock, Cape Town</p>
+                    <p><i class="fas fa-phone"></i> (27) 73-9456-789</p>
+                    <p><i class="fas fa-envelope"></i> info@wrenchspark.co.za</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="Products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="enquiry.html">Enquiry</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and special offers</p>
+                    <form class="newsletter">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Wrench & Spark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

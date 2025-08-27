@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrench & Spark - The Mechanic's Source</title>
+    <!-- This links to Google Fonts to import the specific fonts used in the design. -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- This links to Font Awesome's icon library, providing access to a wide range of icons. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Wrench & <span>Spark</span></a>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </nav>
+                <!-- This div holds the search and cart icons. -->
+                <div class="header-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> <span id="cart-count" style="display: none;">0</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>The Mechanic's Source</h1>
+            <p>Quality tools, expert advice, and everything you need to get the job done right. From professional mechanics to DIY enthusiasts.</p>
+            <a href="Products.html" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- This section highlights the main product categories. -->
+    <section class="categories section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Hand Tools</h3>
+                    <p>Quality wrenches, sockets, screwdrivers, and more.</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Power Tools</h3>
+                    <p>Drills, impacts, sanders, and professional power tools.</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Diagnostics</h3>
+                    <p>Scan tools, multimeters, and diagnostic equipment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This section showcases the site's best-selling products. -->
+    <section class="products" style="background-color: #f1f5f9;">
+        <div class="container section-padding">
+            <h2 class="section-title">Our Best Sellers</h2>
+            <!-- A grid to display the product cards. -->
+            <div class="product-grid">
+                <!-- Each `product-card` contains an image, name, price, and add-to-cart button. -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Professional Socket Set</h3>
+                        <p class="product-price">R1,299.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Impact Wrench</h3>
+                        <p class="product-price">R2,499.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mechanic's Toolbox</h3>
+                        <p class="product-price">R3,799.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-car-battery"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Battery Tester</h3>
+                        <p class="product-price">R899.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="values section-padding">
+        <div class="container">
+            <h2 class="section-title">Why Choose Wrench & Spark?</h2>
+            <!-- A grid for the value proposition cards. -->
+            <div class="value-grid">
+                <!-- Each `value-card` highlights a key benefit. -->
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Quality Guarantee</h3>
+                    <p>All our tools are professionally rated and come with a lifetime warranty.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Fast Shipping</h3>
+                    <p>Free shipping on orders over R500, delivered within 2-3 business days.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Expert Advice</h3>
+                    <p>Our team of experienced mechanics is available to help you choose the right tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The `<footer>` contains site-wide information like contact details, links, and copyright. -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- This section contains contact information. -->
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 357 Tool stock, Cape Town</p>
+                    <p><i class="fas fa-phone"></i> (27) 73-9456-789</p>
+                    <p><i class="fas fa-envelope"></i> info@wrenchspark.co.za</p>
+                </div>
+                <!-- This section contains quick links to other pages. -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="about.html">About Us</a>
+                    <a href="#">Shipping Policy</a>
+                    <a href="#">Returns & Refunds</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <!-- This section contains the newsletter signup form and social media links. -->
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and special offers</p>
+                    <form class="newsletter">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- The final copyright notice at the bottom of the page. -->
+            <div class="copyright">
+                <p>&copy; 2025 Wrench & Spark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- The `<script>` tag links to the external JavaScript file for interactive features. -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wrench & Spark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Wrench & <span>Spark</span></a>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> <span id="cart-count" style="display: none;">0</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We're here to help with any questions you have about our products or your order.</p>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Contact Information</h2>
+                    <div class="contact-detail">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h3>Our Address</h3>
+                            <p>357 Tool stock, Cape Town, South Africa</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h3>Phone Number</h3>
+                            <p>(27) 73-9456-789</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h3>Email Address</h3>
+                            <p>info@wrenchspark.co.za</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.442148492021!2d28.034088!3d-26.195246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f040a3f3%3A0x704724a8767e9110!2sJohannesburg!5e0!3m2!1sen!2sza!4v1672526000000!5m2!1sen!2sza" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-padding" style="background-color: #f1f5f9;">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 357 Tool stock, Cape Town</p>
+                    <p><i class="fas fa-phone"></i> (27) 73-9456-789</p>
+                    <p><i class="fas fa-envelope"></i> info@wrenchspark.co.za</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="Products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="enquiry.html">Enquiry</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and special offers</p>
+                    <form class="newsletter">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Wrench & Spark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
