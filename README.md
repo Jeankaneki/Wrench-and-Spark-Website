@@ -39,7 +39,7 @@ In the Proposal document
 3.	Moz. (2023). Beginner's Guide to SEO. https://moz.com/beginners-guide-to-seo
 4.	Stripe. (n.d.). Payment Processing. https://stripe.com/en-za (For future e-commerce functionality research).
 
-Tools
+Tools.
 1.	Professional Socket Set:
 ○	Example Product: GearWrench 84-Piece Master Socket Set
 ○	Reference Link: https://www.protoindustrial.com/products/hand-tools/ratchets-sockets 
@@ -54,7 +54,8 @@ Tools
 ○	Reference Link: https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-115
 
 
-Images
+Images.
+
 Mechanics Tools available at https://unsplash.com/s/photos/Mechanics-tools 
 Business men available at  https://unsplash.com/s/photos/corporate-man 
  
