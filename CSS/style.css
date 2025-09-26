@@ -691,5 +691,6 @@ footer {
 
 /* High DPI displays */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    /* You can add high-resolution image styles here */
+    /* high-resolution image styles will be added here later*/
 }
+
