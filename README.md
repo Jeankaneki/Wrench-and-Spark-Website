@@ -32,12 +32,64 @@ This project is built entirely with front-end technologies, focusing on a clean 
 * CSS3: For styling, layout (Flexbox), and responsive design.
 * JavaScript (ES6): For interactive elements like the mobile menu toggle and product filtering.
 
+# Changelog - Wrench & Spark Website
+
+All notable changes to this project will be documented in this part.
+
+## [Part 2] - 2025-09-25
+
+### Added
+- Complete CSS styling for all website pages
+- Responsive design implementation using media queries
+- CSS Grid and Flexbox layout systems
+- Interactive elements with hover and focus states
+- Mobile-first responsive design approach
+- CSS custom properties (variables) for consistent theming
+- Typography scale using relative units (rem/em)
+- Product filtering functionality on products page
+- Form validation for contact and enquiry forms
+- Accessibility improvements (focus states, ARIA labels)
+
+### Changed
+- Refactored CSS to use relative units instead of fixed pixels
+- Improved responsive breakpoints for better mobile experience
+- Enhanced color scheme consistency using CSS variables
+- Optimized image loading with responsive image techniques
+- Updated navigation to be fully responsive with mobile menu
+- Improved form styling and user experience
+
+### Fixed
+- Cross-browser compatibility issues
+- Mobile navigation toggle functionality
+- Form validation error handling
+- Layout issues on small screens
+- Color contrast ratios for accessibility
+
+## [Part 1] - 2025-08-27
+
+### Added
+- Initial project structure and file organization
+- HTML5 semantic structure for all pages
+- Basic content architecture and sitemap
+- Project proposal documentation
+- GitHub repository setup
+
+### Changed
+- Improved HTML semantic structure based on feedback
+- Enhanced documentation clarity
+
+### Fixed
+- Broken links in navigation
+- HTML validation errors
+
 * References
 In the Proposal document
 1.	Colour Psychology in Marketing. (2022). The Meaning of Colour. https://www.helpscout.com/blog/psychology-of-color/
 2.	Google Fonts. (n.d.). Roboto & Roboto Condensed. https://fonts.google.com/
 3.	Moz. (2023). Beginner's Guide to SEO. https://moz.com/beginners-guide-to-seo
 4.	Stripe. (n.d.). Payment Processing. https://stripe.com/en-za (For future e-commerce functionality research).
+
+
 
 Tools.
 1.	Professional Socket Set:
