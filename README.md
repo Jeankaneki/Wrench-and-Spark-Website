@@ -97,6 +97,7 @@ Contact page
 
 On Mobile
 ![](Screenshot 2025-09-26 214536.png)
+on Mobile
 ![](Screenshot 2025-09-26 214629.png)
 
 ## References
