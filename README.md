@@ -86,6 +86,19 @@ All notable changes to this project will be documented in this part.
 Home page
 ![](WSHome.png)
 
+Products page
+![](WSProducts.png)
+
+About page
+![](WSAbout.png)
+
+Contact page
+![](WSContact.png)
+
+On Mobile
+![](Screenshot 2025-09-26 214536.png)
+![](Screenshot 2025-09-26 214629.png)
+
 ## References
 In the Proposal document
 1.	Colour Psychology in Marketing. (2022). The Meaning of Colour. https://www.helpscout.com/blog/psychology-of-color/
