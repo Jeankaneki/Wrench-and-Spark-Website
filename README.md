@@ -84,7 +84,7 @@ All notable changes to this project will be documented in this part.
 
 ## Screenshots.
 Home page
-<a href:WSHome.png>Home page</a>
+![](WSHome.png)
 
 ## References
 In the Proposal document
