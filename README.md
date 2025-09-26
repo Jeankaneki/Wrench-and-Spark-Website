@@ -95,9 +95,10 @@ About page
 Contact page
 ![](WSContact.png)
 
-On Mobile
+On Mobile:
+
 ![](Screenshot1.png)
-on Mobile
+
 ![](Screenshot2.png)
 
 ## References
