@@ -82,7 +82,11 @@ All notable changes to this project will be documented in this part.
 - Broken links in navigation
 - HTML validation errors
 
-* References
+## Screenshots.
+Home page
+
+
+## References
 In the Proposal document
 1.	Colour Psychology in Marketing. (2022). The Meaning of Colour. https://www.helpscout.com/blog/psychology-of-color/
 2.	Google Fonts. (n.d.). Roboto & Roboto Condensed. https://fonts.google.com/
@@ -90,8 +94,43 @@ In the Proposal document
 4.	Stripe. (n.d.). Payment Processing. https://stripe.com/en-za (For future e-commerce functionality research).
 
 
+### Part 1: HTML Structure & Planning  
 
-Tools.
+- MDN Web Docs. 2023. *HTML5 Semantic Elements*. [online]. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element [Accessed 23 August 2025].
+
+- W3C. 2023. *HTML Living Standard*. [online]. Web Hypertext Application Technology Working Group. Available at: https://html.spec.whatwg.org/ [Accessed 23 August 2025].
+
+- W3Schools. 2023. *HTML Tutorial*. [online]. Available at: https://www.w3schools.com/html/ [Accessed 23 August 2025].  
+
+---
+
+
+### Part 2: CSS Implementation & Responsive Design  
+
+- MDN Web Docs. 2023. *CSS Grid Layout*. [online]. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout [Accessed 22 September 2025].  
+
+- MDN Web Docs. 2023. *Flexbox*. [online]. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout [Accessed 21 September 2025].  
+
+- Google Fonts. 2023. *Roboto & Roboto Condensed*. [online]. Google LLC. Available at: https://fonts.google.com/specimen/Roboto [Accessed 23 September 2025].  
+
+- Font Awesome. 2023. *Icon Library*. [online]. Fonticons, Inc. Available at: https://fontawesome.com/ [Accessed 22 September 2025].  
+
+- Unsplash. 2023. *Stock Photography*. [online]. Available at: https://unsplash.com/s/photos/mechanics-tools and Business men available at : https://unsplash.com/s/photos/corporate-man[Accessed 25 August 2025].
+
+   
+
+- W3C. 2023. *CSS Custom Properties for Cascading Variables*. [online]. World Wide Web Consortium. Available at: https://www.w3.org/TR/css-variables-1/ [Accessed 23 September 2025].  
+
+- Smashing Magazine. 2022. *Responsive Web Design*. [online]. Available at: https://www.smashingmagazine.com/2025/02/taking-rwd-to-the-extreme/ [Accessed 17 September 2025].  
+
+- CSS-Tricks. 2023. *A Complete Guide to Flexbox*. [online]. Available at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [Accessed 23 September 2025].  
+
+- CSS-Tricks. 2023. *A Complete Guide to Grid*. [online]. Available at: https://css-tricks.com/snippets/css/complete-guide-grid/ [Accessed 24 September 2025].  
+
+---
+
+
+#### Tools.
 1.	Professional Socket Set:
 ○	Example Product: GearWrench 84-Piece Master Socket Set
 ○	Reference Link: https://www.protoindustrial.com/products/hand-tools/ratchets-sockets 
@@ -105,12 +144,8 @@ Tools.
 ○	Example Product: Fluke 115 Compact True-RMS Digital Multimeter
 ○	Reference Link: https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-115
 
+---
 
-Images.
-
-Mechanics Tools available at https://unsplash.com/s/photos/Mechanics-tools 
-Business men available at  https://unsplash.com/s/photos/corporate-man 
- 
 ## Run
 * How to Run This Project Locally
 To view and run this project on your local machine, follow these simple steps:
