@@ -96,9 +96,9 @@ Contact page
 ![](WSContact.png)
 
 On Mobile
-![](Screenshot 2025-09-26 214536.png)
+![](Screenshot1.png)
 on Mobile
-![](Screenshot 2025-09-26 214629.png)
+![](Screenshot2.png)
 
 ## References
 In the Proposal document
