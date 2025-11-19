@@ -36,6 +36,41 @@ This project is built entirely with front-end technologies, focusing on a clean 
 
 All notable changes to this project will be documented in this part.
 
+### [Part 3] - 2025-11-15
+
+#### Added
+- Advanced JavaScript functionality including:
+  - Real-time product search and filtering
+  - Interactive image lightbox gallery
+  - FAQ accordion system
+  - Special offers modal
+  - Scroll animations and transitions
+- Google Maps integration
+- Enhanced form validation with real-time feedback
+- SEO optimization including:
+  - Meta tags and Open Graph tags
+  - Structured data (Schema.org)
+  - robots.txt and sitemap.xml
+- Advanced form functionality:
+  - Contact form with comprehensive validation
+  - Enquiry form with dynamic fields
+  - Character counters and loading states
+- Responsive design enhancements
+- Accessibility improvements
+
+#### Changed
+- Updated all HTML files with SEO meta tags
+- Enhanced form styling and user experience
+- Improved mobile navigation and interactions
+- Optimized JavaScript performance
+
+#### Fixed
+- Cross-browser compatibility issues
+- Mobile form layout problems
+- JavaScript error handling
+- SEO markup validation
+
+
 ## [Part 2] - 2025-09-25
 
 ### Added
@@ -84,22 +119,22 @@ All notable changes to this project will be documented in this part.
 
 ## Screenshots.
 Home page
-![](WSHome.png)
+![](WPhome.png)
 
 Products page
-![](WSProducts.png)
+![](WPproducts.png)
 
 About page
-![](WSAbout.png)
+![](WPabout.png)
 
 Contact page
-![](WSContact.png)
+![](WPcontact.png)
 
 On Mobile:
 
-![](Screenshot1.png)
+![](MobileHome.png)
 
-![](Screenshot2.png)
+![](MobileAbout.png)
 
 ## References
 In the Proposal document
@@ -144,6 +179,24 @@ In the Proposal document
 
 ---
 
+
+### Part 3: JavaScript & SEO Implementation
+
+1. **MDN Web Docs** (2023). *JavaScript Guide*. Mozilla Foundation. available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide [accesed 15 November 2025]
+
+2. **Google Maps JavaScript API** (2023). *Documentation*. Google LLC.  available at: https://developers.google.com/maps/documentation/javascript [accesed 15 November 2025]
+
+3. **Schema.org** (2023). *Structured Data*. available at: https://schema.org/ [accesed 19 November 2025]
+
+4. **Google Search Central** (2023). *SEO Documentation*. available at: https://developers.google.com/search/docs [accesed 16 November 2025]
+
+5. **Open Graph Protocol** (2023). *Documentation*.  available at: https://ogp.me/ [accesed 17 November 2025]
+
+6. **W3C** (2023). *Web Content Accessibility Guidelines*. available at: https://www.w3.org/WAI/standards-guidelines/wcag/ [accesed 15 November 2025]
+
+7. **JavaScript Info** (2023). *Modern JavaScript Tutorial*.  available at: https://javascript.info/ [accesed 14 November 2025]
+
+---
 
 #### Tools.
 1.	Professional Socket Set:
