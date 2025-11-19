@@ -7,7 +7,7 @@ Disallow: /tmp/
 # Sitemap location
 Sitemap: https://www.wrenchspark.co.za/sitemap.xml
 
-# Crawl delay (optional)
+# Crawl delay
 Crawl-delay: 1
 
 # Allow CSS and JS for proper rendering
